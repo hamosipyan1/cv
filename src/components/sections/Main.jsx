@@ -3,6 +3,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import css from '../../css/Main.module.scss'
 import person from "../../images/1.jpg"
+import inst from "../../images/instagramIcon.webp"
+import ln from "../../images/linkedinIcon.webp"
 
 AOS.init();
 
@@ -45,10 +47,10 @@ const Main = () => {
                      style={{backgroundColor: "#182153"}}>
                     <a className="mr-8"
                        href="https://www.linkedin.com/in/hamo-osipyan-208a49247?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bhi%2BwF3edSIuiZrc0wfiCJQ%3D%3D">
-                        <img className="w-12" src="/linkedinIcon.webp" alt=""/>
+                        <img className="w-12" src={ln} alt=""/>
                     </a>
                     <a href="https://www.instagram.com/hamosipyan/">
-                        <img className="w-12" src="/instagramIcon.webp" alt=""/>
+                        <img className="w-12" src={inst} alt=""/>
                     </a>
                 </div>
                 <h1 className="mt-64 mb-2">Hello! My name is Hamo.</h1>
