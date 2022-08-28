@@ -2,6 +2,7 @@ import React from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import css from '../../css/Main.module.scss'
+import person from "../../images/1.jpg"
 
 AOS.init();
 
@@ -9,11 +10,11 @@ const Main = () => {
     return (
         <section className="min-h-480 relative" id="main">
             <div className="bg-fixed pt-112 min-h-320 static"
-                 style={{backgroundImage: "url('/1.jpg')", backgroundRepeat: "no-repeat", backgroundSize: "cover"}}>
+                 style={{backgroundImage: `url(${person})`, backgroundRepeat: "no-repeat", backgroundSize: "cover"}}>
                 <div className="min-h-288 w-full z-10 bg-blue-gray-800 opacity-50" style={{marginTop:"-128px"}}/>
                 <div data-aos-duration="3000" data-aos="fade-right"
                      className="text-blue-500 bg-white absolute top-112 left-384 min-h-208 min-w-210">
-                    <img className="w-210 h-208" src="/person.webp" alt="dsafa"/>
+                    <img className="w-210 h-208" src={person} alt="dsafa"/>
                 </div>
                 <div data-aos-duration="3000" data-aos="fade-left"
                      className="flex flex-col py-14 px-40 absolute top-112 right-360 min-h-208 min-w-216"
