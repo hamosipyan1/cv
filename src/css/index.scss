@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 :root,
 
@@ -11,7 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: all .1s;
+  transition: all .3s;
 }
 
 ul {
@@ -95,4 +93,14 @@ button {
   @keyframes shine {
     0% {background-position:0} 100%{ background-position: 180px}
   }
+}
+
+.text {
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.text_Contacts {
+  font-size: 19px;
+  font-weight: lighter;
 }

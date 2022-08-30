@@ -2,7 +2,8 @@ import React from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import css from '../../css/Main.module.scss'
-import person from "../../images/1.jpg"
+import person from "../../images/person.webp"
+import bg from '../../images/1.jpg'
 import inst from "../../images/instagramIcon.webp"
 import ln from "../../images/linkedinIcon.webp"
 
@@ -12,7 +13,7 @@ const Main = () => {
     return (
         <section className="min-h-512" id="main">
             <div className="bg-fixed pt-112 h-480 relative top-0"
-                 style={{backgroundImage: `url(${person})`, backgroundRepeat: "no-repeat", backgroundSize: "cover"}}>
+                 style={{backgroundImage: `url(${bg})`, backgroundRepeat: "no-repeat", backgroundSize: "cover"}}>
                 <div className="h-480 top-0 absolute w-full bg-blue-gray-800 opacity-50" />
                 <div className="flex flex-col justify-center items-center">
                     <div className="flex">

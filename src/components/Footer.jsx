@@ -3,8 +3,8 @@ import React from 'react';
 const Footer = () => {
 
     return (
-        <footer className="text-white flex items-center justify-center py-5 bg-" style={{backgroundColor: "#191F22"}}>
-            &copy; Hamlet Osipyan {new Date().getFullYear()}
+        <footer className="text-white flex items-center pl-120 py-10 bg-[#191F22]">
+            <span className="italic text-[12px]">${"{©hamlet osipyan" + new Date().getFullYear()}}</span>
         </footer>
     );
 };
