@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.a24b3038.css",
-    "main.js": "/cv/static/js/main.44a171f2.js",
+    "main.css": "/cv/static/css/main.5a7ec634.css",
+    "main.js": "/cv/static/js/main.29dace5d.js",
     "static/media/1.jpg": "/cv/static/media/1.ad640397371f16f9a041.jpg",
     "static/media/usaFlag.jpg": "/cv/static/media/usaFlag.5506ca160b9cb438d9ab.jpg",
     "static/media/russianFlag.jpg": "/cv/static/media/russianFlag.b8531a6661158b4f1557.jpg",
+    "static/media/person.webp": "/cv/static/media/person.9e238db3a8b5bbe1d6c1.webp",
+    "static/media/linkedinIconBlack.png": "/cv/static/media/linkedinIconBlack.aac2bd0e899c2f82cb7b.png",
+    "static/media/instagramIconBlack.png": "/cv/static/media/instagramIconBlack.06314e940b23d1314f06.png",
     "index.html": "/cv/index.html",
     "static/media/instagramIcon.webp": "/cv/static/media/instagramIcon.f4fae0ae393189b145ec.webp",
     "static/media/linkedinIcon.webp": "/cv/static/media/linkedinIcon.a80be460521ebefe3bef.webp",
     "static/media/getFetch.cjs": "/cv/static/media/getFetch.c780682470504fffbd04.cjs",
-    "main.a24b3038.css.map": "/cv/static/css/main.a24b3038.css.map",
-    "main.44a171f2.js.map": "/cv/static/js/main.44a171f2.js.map"
+    "main.5a7ec634.css.map": "/cv/static/css/main.5a7ec634.css.map",
+    "main.29dace5d.js.map": "/cv/static/js/main.29dace5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.a24b3038.css",
-    "static/js/main.44a171f2.js"
+    "static/css/main.5a7ec634.css",
+    "static/js/main.29dace5d.js"
   ]
 }
