@@ -27,14 +27,13 @@ const Contacts = () => {
                         </a>
                     </div>
                 </div>
-                <div className="pt-52 w-1/2 flex flex-col items-center">
+                <div className="pt-56 w-1/2 flex flex-col items-center">
                     <div className="w-200">
                         <h3>Phone:</h3>
-                        <h4>(+374)-95-30- 69-74</h4>
+                        <h4>(+374)-95-30-69-74</h4>
                     </div>
                     <div className="w-200">
-                        <h3>Email:</h3>
-                        <h4>hamosipyan@gmail.com</h4>
+                        <h4>Email: hamosipyan@gmail.com</h4>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,5 @@
 import React from 'react';
 import Menu from "./Menu";
-import Languages from "./Languages";
 
 const Header = () => {
     return (
@@ -9,7 +8,6 @@ const Header = () => {
                 Hamlet Osipyan
             </h1>
             <Menu/>
-            <Languages/>
         </header>
     );
 };

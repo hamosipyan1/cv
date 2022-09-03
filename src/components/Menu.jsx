@@ -9,7 +9,7 @@ const Menu = () => {
         <ul className="flex w-1/3 justify-between">
             {
                 menu.map(({id, name}) => {
-                    return <li key={id} className="hover:text-indigo-800 mx-3 cursor-pointer capitalize font-semibold">
+                    return <li key={id} className="hover:text-indigo-800 mx-5 cursor-pointer capitalize font-semibold">
                         <ScrollIntoView selector={`#${name}`}>
                             {name}
                         </ScrollIntoView>

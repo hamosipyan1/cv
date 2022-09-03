@@ -13,7 +13,7 @@ const Experience = () => {
                 I am looking for internship!
             </p>
             <p className="max-w-480 text-center text">
-                I don't have working experience but do have basic skills, knowledge and aspiration to try myself in this sphere.
+                I don't have working experience but do have basic skills, knowledge and aspiration to try myself in this sphere!
             </p>
         </div>
     );
