@@ -19,7 +19,7 @@ const Main = () => {
                     <div className="flex">
                         <div data-aos-duration="3000" data-aos="fade-right"
                              className="text-blue-500 bg-white min-w-210">
-                            <img className="w-210 h-208" src={person} alt="dsafa"/>
+                            <img className="w-210 h-208" src="" alt="image"/>
                         </div>
                         <div data-aos-duration="3000" data-aos="fade-left"
                              className="flex flex-col py-14 px-40 min-h-208 min-w-216"
@@ -31,7 +31,7 @@ const Main = () => {
                                 </div>
                                 <div>
                                     <h4>Phone:</h4>
-                                    <span>(+374)95-30-69-74</span>
+                                    <span>(+374)-95-30-69-74</span>
                                 </div>
                                 <div>
                                     <h4>Email:</h4>
